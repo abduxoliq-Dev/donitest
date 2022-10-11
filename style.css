@@ -1,0 +1,47 @@
+
+.img1{
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.52);
+}
+
+.input1{
+    width: 320px;
+    height: 35px;
+    border-radius: 3px;
+}
+.mt-5{
+    margin-top: 140px;
+}
+.input2{
+    height: 35px;
+}
+.bubu{
+    position: relative;
+    left:1100px;
+    top: 410px;
+    height: 140px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #29ff19;
+    animation:pulse 1500ms infinite;
+}
+
+@keyframes pulse {
+    0%{
+        box-shadow: #29ff19 0 0 0 0;
+    }
+    100%{
+        box-shadow: #77c03e00 0 0 0 28px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
